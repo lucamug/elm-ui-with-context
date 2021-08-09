@@ -1,4 +1,9 @@
 # Elm-ui-with-context
+
+Clone of [miniBill/elm-ui-with-context](https://package.elm-lang.org/packages/miniBill/elm-ui-with-context/latest/) with small modifications and bug fixes.
+
+---
+
 This library wraps [`mdgriffith/elm-ui`](https://package.elm-lang.org/packages/mdgriffith/elm-ui/latest/) to provide a global context available while building the view. If you're not familiar with `elm-ui`, you should try it and only come back to this library when you have a problem to solve.
 
 A context is a global, *constant or mostly constant* object. It can be used to store those things that you will need *almost everywhere* in your `view` but don't change often, or at all.
